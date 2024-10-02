@@ -10464,10 +10464,10 @@ __metadata:
 
 "react-compiler-runtime@file:./lib/react-compiler-runtime::locator=rn-todo-app%40workspace%3A.":
   version: 0.0.1
-  resolution: "react-compiler-runtime@file:./lib/react-compiler-runtime#./lib/react-compiler-runtime::hash=69451e&locator=rn-todo-app%40workspace%3A."
+  resolution: "react-compiler-runtime@file:./lib/react-compiler-runtime#./lib/react-compiler-runtime::hash=3d8e06&locator=rn-todo-app%40workspace%3A."
   peerDependencies:
     react: ^18.2.0
-  checksum: 10c0/7f099ca9493f19223c889b48727d7eb6fa03b4bed42a0963ac5323cd16110ea8bf8ea836e60c490da37c3471493605e0fd69f4f0cda7a2b1b53b7c98b83ea78b
+  checksum: 10c0/60ffa65a1c164b829bcfc618e2bbba66825cec7829e07edd887265f64f702a9abd9ce651749acd621a536a034019086d8189c074eee92317adad23a0e97a3318
   languageName: node
   linkType: hard
 
