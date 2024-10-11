@@ -7,12 +7,15 @@ import TodoListAddFloatingBtn from '#/modules/todo/presentation/TodoListAddFloat
 import TodoListAddModal from '#/modules/todo/presentation/TodoListAddModal';
 
 import '../../global.css';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 const Index = () => {
   return (
     <TodoListUiProvider>
       <StatusBar translucent={false} />
-      <TodoList />
+      <SafeAreaView style={{ flex: 1 }}>
+        <TodoList />
+      </SafeAreaView>
       <TodoListAddFloatingBtn />
       <TodoListAddModal />
     </TodoListUiProvider>

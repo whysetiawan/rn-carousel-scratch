@@ -49,7 +49,7 @@ const todoReducer = (state: Todo[], action: TodoActionsType): Todo[] => {
       return [
         ...state,
         {
-          id: lastId,
+          id: lastId + 1,
           ...action.payload,
         },
       ];
