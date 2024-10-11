@@ -1,6 +1,5 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { TodoListUiProvider } from '#/modules/todo/application/context/TodoListUiProvider';
@@ -15,9 +14,7 @@ const Index = () => {
     <TodoListUiProvider>
       <StatusBar translucent={false} />
       <SafeAreaView style={{ flex: 1 }}>
-        <View style={{ flex: 1 }}>
-          <TodoList />
-        </View>
+        <TodoList />
       </SafeAreaView>
       <TodoListAddFloatingBtn />
       <TodoListAddModal />

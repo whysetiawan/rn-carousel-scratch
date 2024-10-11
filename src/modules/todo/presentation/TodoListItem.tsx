@@ -19,7 +19,7 @@ const TodoListItem: React.FC<Todo> = ({ completed, id, task }) => {
           params: { id },
         });
       }}
-      className="flex flex-1 flex-row w-full rounded-xl bg-white p-4 shadow-sm items-center justify-between">
+      className="flex flex-row w-full rounded-xl bg-white p-4 shadow-sm items-center justify-between">
       <View className="flex-row items-center gap-x-4">
         <Pressable onPress={() => dispatch({ type: 'toggle', payload: { id, completed, task } })}>
           <MaterialIcons
