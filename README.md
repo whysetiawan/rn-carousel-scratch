@@ -4,7 +4,9 @@ This is an [Expo](https://expo.dev) project created with [`create-expo-app`](htt
 
 ## Demo
 
-![Demo Video](https://github.com/whysetiawan/rn-todo-app-react-compiler/raw/refs/heads/main/Screen%20Recording%202024-10-11%20at%2018.55.52.mov)
+<video width="400px">
+   <source src="https://github.com/whysetiawan/rn-todo-app-react-compiler/raw/refs/heads/main/Screen%20Recording%202024-10-11%20at%2018.55.52.mov">
+</video>
 
 ## Get started
 
