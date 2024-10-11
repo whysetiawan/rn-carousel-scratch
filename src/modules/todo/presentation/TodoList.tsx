@@ -10,7 +10,7 @@ const TodoList: React.FC = () => {
 
   return (
     <FlatList
-      contentContainerStyle={{ flexGrow: 1, paddingHorizontal: 16, paddingTop: 20 }}
+      contentContainerStyle={{ paddingHorizontal: 16, paddingTop: 20 }}
       // contentContainerClassName="pt-8 px-4 bg flex-grow flex flex-1"
       data={todos}
       keyExtractor={(item) => item.id.toString()}

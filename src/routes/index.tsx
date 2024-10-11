@@ -1,5 +1,6 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { TodoListUiProvider } from '#/modules/todo/application/context/TodoListUiProvider';
 import TodoList from '#/modules/todo/presentation/TodoList';
@@ -7,7 +8,6 @@ import TodoListAddFloatingBtn from '#/modules/todo/presentation/TodoListAddFloat
 import TodoListAddModal from '#/modules/todo/presentation/TodoListAddModal';
 
 import '../../global.css';
-import { SafeAreaView } from 'react-native-safe-area-context';
 
 const Index = () => {
   return (
