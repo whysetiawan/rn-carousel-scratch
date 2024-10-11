@@ -18,7 +18,7 @@ export default function RootLayout() {
         <Stack.Screen
           name="todo/[id]"
           options={{
-            headerShown: false,
+            title: 'Edit Todo',
           }}
         />
       </Stack>
