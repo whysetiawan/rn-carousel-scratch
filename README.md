@@ -1,13 +1,17 @@
 # Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app). This app using **React Compiler**, so you won't find any memoize function.
+
+## Demo
+
+<video src="https://github.com/whysetiawan/rn-todo-app-react-compiler/raw/refs/heads/main/Screen%20Recording%202024-10-11%20at%2018.55.52.mov" style="max-width: 400px;" />
 
 ## Get started
 
 1. Install dependencies
 
    ```bash
-   npm install
+   yarn install
    ```
 
 2. Start the app
