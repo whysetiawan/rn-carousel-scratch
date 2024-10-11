@@ -13,6 +13,7 @@ const Index = () => {
   return (
     <TodoListUiProvider>
       <StatusBar translucent={false} />
+      {/* className does not work on SafeAreaView */}
       <SafeAreaView style={{ flex: 1 }}>
         <TodoList />
       </SafeAreaView>
