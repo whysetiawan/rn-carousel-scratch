@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "rn-todo-app",
-    "slug": "rn-todo-app",
+    "name": "rn-carousel-scratch",
+    "slug": "rn-carousel-scratch",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,9 +13,11 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rn-carousel-scratch"
     },
     "android": {
+      "package": "com.rn_carousel_scratch",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -32,7 +34,8 @@
         {
           "root": "./src/routes"
         }
-      ]
+      ],
+      "expo-font"
     ],
     "experiments": {
       "typedRoutes": true
